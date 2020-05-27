@@ -97,9 +97,9 @@ print(mod)
 import smtplib
 import os
 if pred1[1]*100 >= 95:
-    email = 'mukeshsandela08@gmail.com' # Your email
-    password = 'mukesh@12761297' # Your email account password
-    send_to_email ='mukeshsandela08@gmail.com' # Who you are sending the message to
+    email = 'yourmail@gmail.com' # Your email
+    password = '*************' # Your email account password
+    send_to_email ='targest@gmail.com' # Who you are sending the message to
     message1 = str(Accuracy) # The message in the email
     message2 = mod
     server = smtplib.SMTP('smtp.gmail.com', 587) # Connect to the server
@@ -109,7 +109,7 @@ if pred1[1]*100 >= 95:
     server.sendmail(email, send_to_email , message2)
     server.quit() # Logout of the email server
 else:
-    os.system ('curl --user "mukeshm:linux" http://192.168.99.100:8080//job/Running%20Docker%20Container/build?token=monitoring')
+    os.system ('curl --user "username(jenkins):password(jenkins)" http://192.168.99.100:8080//job/Running%20Docker%20Container/build?token=monitoring')
 
 
 

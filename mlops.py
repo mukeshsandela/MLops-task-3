@@ -98,7 +98,7 @@ import smtplib
 import os
 if pred1[1]*100 >= 95:
     email = 'mukeshsandela08@gmail.com' # Your email
-    password = '' # Your email account password
+    password = 'Mks@7688871963' # Your email account password
     send_to_email ='msingh767288@gmail.com' # Who you are sending the message to
     message1 = str(Accuracy) # The message in the email
     message2 = mod

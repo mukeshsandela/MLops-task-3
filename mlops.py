@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:m
+# In[1]:mdfg
 
 
 from keras.datasets import mnist
